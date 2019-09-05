@@ -1,8 +1,7 @@
 c:\users\rehman.rasheed\documents\visual studio 2017\Projects\SFTP_UPLOAD\SFTP_UPLOAD\bin\Debug\SFTP_UPLOAD.exe.config
 c:\users\rehman.rasheed\documents\visual studio 2017\Projects\SFTP_UPLOAD\SFTP_UPLOAD\bin\Debug\SFTP_UPLOAD.exe
 c:\users\rehman.rasheed\documents\visual studio 2017\Projects\SFTP_UPLOAD\SFTP_UPLOAD\bin\Debug\SFTP_UPLOAD.pdb
-c:\users\rehman.rasheed\documents\visual studio 2017\Projects\SFTP_UPLOAD\SFTP_UPLOAD\obj\Debug\SFTP_UPLOAD.exe
-c:\users\rehman.rasheed\documents\visual studio 2017\Projects\SFTP_UPLOAD\SFTP_UPLOAD\obj\Debug\SFTP_UPLOAD.pdb
 c:\users\rehman.rasheed\documents\visual studio 2017\Projects\SFTP_UPLOAD\SFTP_UPLOAD\bin\Debug\Renci.SshNet.dll
 c:\users\rehman.rasheed\documents\visual studio 2017\Projects\SFTP_UPLOAD\SFTP_UPLOAD\bin\Debug\Renci.SshNet.xml
-c:\users\rehman.rasheed\documents\visual studio 2017\Projects\SFTP_UPLOAD\SFTP_UPLOAD\obj\Debug\SFTP_UPLOAD.csprojResolveAssemblyReference.cache
+c:\users\rehman.rasheed\documents\visual studio 2017\Projects\SFTP_UPLOAD\SFTP_UPLOAD\obj\Debug\SFTP_UPLOAD.exe
+c:\users\rehman.rasheed\documents\visual studio 2017\Projects\SFTP_UPLOAD\SFTP_UPLOAD\obj\Debug\SFTP_UPLOAD.pdb

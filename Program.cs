@@ -19,32 +19,21 @@ namespace SFTP_UPLOAD
             //const string host = @"sftp://192.168.42.186";
             const string username = @"hasan";
             const string password = @"tpstps";
-            const string workingdirectory = @"/ImportFiles/Customer/";
-            const string uploadfile = @"D:\SFTP_UPLOAD.txt";
+            const string workingdirectory = @"/ImportFiles/Custo/mer/";
+            const string uploadfile = @"D:\Encrypted-CardProduction.txtCPE00000057CARDEXPORT20190829184508-AL_Fardan_Debit";
 
             Console.WriteLine("\r\n Creating client and connecting");
             Console.WriteLine("   \r\n host  :" + host  + "   \r\n port  :" + port + "   \r\n username  :" + username + "   \r\n password  :" + password);
-            using (var client = new SftpClient(host, port, username, password))
+
+            SFTP_UploadFile abc = new SFTP_UploadFile(host, port, username, password);
+
+
+            if (abc.UploadFile(uploadfile, workingdirectory) == true)
             {
-                client.Connect();
-                Console.WriteLine("Connected to {0}", host);
-
-                client.ChangeDirectory(workingdirectory);
-                Console.WriteLine("Changed directory to {0}", workingdirectory);
-
-                var listDirectory = client.ListDirectory(workingdirectory);
-                Console.WriteLine("Listing directory:");
-                foreach (var fi in listDirectory)
-                {
-                    Console.WriteLine(" - " + fi.Name);
-                }
-
-                using (var fileStream = new FileStream(uploadfile, FileMode.Open))
-                {
-                    Console.WriteLine("Uploading {0} ({1:N0} bytes)", uploadfile, fileStream.Length);
-                    client.BufferSize = 4 * 1024; // bypass Payload error large files
-                    client.UploadFile(fileStream, Path.GetFileName(uploadfile));
-                }
+                Console.Write("File Uploaded ");
+            }
+            else {
+                Console.Write("Unable to  Uploaded File  " );
             }
 
             Console.Write("hello");
